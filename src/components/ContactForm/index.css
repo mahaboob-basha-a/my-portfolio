@@ -17,7 +17,7 @@
     border-color: rgb(163, 163, 163);
     background: (250, 250, 250);
     margin: 2rem auto;
-    padding: 0.5rem;
+    padding: 20px;
   }
   
   .contact-info-container {
@@ -63,7 +63,7 @@
   background: (250, 250, 250);
   padding: 15px;
   margin: 5px;
-  width: 160px;
+  width: 60vh;
 }
 
 .form-container{
@@ -72,7 +72,7 @@
 }
 
 .txt{
-  height: 20vh;
+  height: 19vh;
   width: 50vh;
 }
 .footer{
@@ -131,14 +131,14 @@
     margin-bottom: 2rem;
   }
 
-  .contact-info-upper-container,
+  
   .btn-container {
     flex-wrap: wrap;
   }
   .contact-info-container {
     margin: 0;
   }
-  .contact-info-container p,
+  
   .nav-links li a {
     font-size: 1rem;
   }
@@ -165,7 +165,7 @@
     background: (250, 250, 250);
     padding: 15px;
     margin: 5px;
-    width: fit-content;
+    width: 100%;
   }
   .inputs-container{
     display: flex;
@@ -174,9 +174,17 @@
   .contact-info-upper-container,
   .btn-container,
   .contact-container,
-  .bottom-socialmedia,
   .contact-info-container,
-  .email-container{
+  .email-container,
+  .inputs-container,
+  .form-container,
+  .bottom-btn-email-container,
+  .btn,
+  .btn-color-1,
+  .button,
+  .icon,
+  .contact-icon{
     flex-wrap: wrap;
   }
+  
 }
