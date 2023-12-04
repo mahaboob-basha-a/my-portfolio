@@ -52,34 +52,7 @@ const ContactForm = () => {
               </div>
             </div>
 
-            <div className='bottom-socialmedia'>
-              <div class="contact-info-container">
-                <img
-                  src="./assets/linkedin.png"
-                  alt="LinkedIn icon"
-                  class="icon contact-icon"
-                />
-                <p><a href="https://linkedin.com/in/shiva-prasad-m">LinkedIn</a></p>
-              </div>
-
-              <div class="contact-info-container">
-                <img
-                  src="./assets/instagram logo.png"
-                  alt="instagram logo icon"
-                  class="icon contact-icon"
-                />
-                <p><a href="https://instagram.com/mr_chiva?igshid=MzMyNGUyNmU2YQ==">Instagram</a></p>
-              </div>
-
-              <div class="contact-info-container">
-                <img
-                  src="./assets/ytlogo.png"
-                  alt="youtube logo icon"
-                  class="icon contact-icon"
-                />
-                <p><a href="https://www.youtube.com/@shivaprasad.m">YouTube</a></p>
-              </div>
-            </div>
+            
           </div>
           <div className='bottom-btn-email-container'>
             <button type="submit" className="btn btn-color-1 button">Submit</button>
