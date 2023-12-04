@@ -171,4 +171,12 @@
     display: flex;
     flex-direction: column;
   }
+  .contact-info-upper-container,
+  .btn-container,
+  .contact-container,
+  .bottom-socialmedia,
+  .contact-info-container,
+  .email-container{
+    flex-wrap: wrap;
+  }
 }
