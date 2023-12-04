@@ -1,19 +1,23 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const cors = require('cors'); // Import the cors middleware
+const cors = require('cors');
 
 const app = express();
-const PORT = 5004;
+const PORT = process.env.PORT || 5004;
 
-app.use(cors()); // Enable CORS for all routes
-
-app.use(bodyParser.json());
-
-mongoose.connect('mongodb://localhost/contact', {
+const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost/contact';
+mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+
+const corsOptions = {
+  credentials: true,
+};
+
+app.use(cors(corsOptions));
+app.use(bodyParser.json());
 
 const contactSchema = new mongoose.Schema({
   name: String,
@@ -34,6 +38,15 @@ app.post('/api/contact', async (req, res) => {
     console.error(error);
     res.status(500).json({ message: 'Internal Server Error' });
   }
+});
+
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  console.log('Received SIGTERM. Closing server gracefully.');
+  mongoose.connection.close(() => {
+    console.log('MongoDB connection closed.');
+    process.exit(0);
+  });
 });
 
 app.listen(PORT, () => {
