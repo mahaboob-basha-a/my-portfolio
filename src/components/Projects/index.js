@@ -6,20 +6,20 @@ const Projects = () => {
         {
             title: 'Rock Paper',
             image: '/assets/rock-paper.jpg',
-            githubLink: 'https://githubrockpaper.com/',
+            githubLink: 'https://github.com/mahaboob-basha-a/rock-paper-scissor.git',
             liveDemoLink: 'https://rockpaperscshi.ccbp.tech/',
         },
         {
             title: 'Jobby App',
             image: '/assets/job-search.png',
-            githubLink: 'https://github.com/shivaprasadmakela/jobby-app-react-js',
-            liveDemoLink: 'https://jobbyappshv.ccbp.tech/login',
+            githubLink: 'https://github.com/mahaboob-basha-a/jobby-app.git',
+            liveDemoLink: 'https://jobbyappmbs.ccbp.tech/login',
         },
         {
             title: 'Todo List',
             image: '/assets/to-do-list.png',
-            githubLink: 'https://githubtodos.com/',
-            liveDemoLink: 'https://todoshivapra.ccbp.tech/',
+            githubLink: 'https://github.com/mahaboob-basha-a/mbs_todolist_frontend.git',
+            liveDemoLink: 'https://6649de49a4f26b9b22bcf6d0--mbstodolist.netlify.app/',
         },
 
         // Add more projects as needed

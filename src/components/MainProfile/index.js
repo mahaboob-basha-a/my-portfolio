@@ -18,7 +18,7 @@ class MainProfile extends Component {
         return (
             <>
                 <nav id="desktop-nav">
-                    <div className="logo">shiva prasad m</div>
+                    <div className="logo">Mahaboob Basha A</div>
                     <div>
                         <ul className="nav-links">
                             <li><a href="#about">About</a></li>
@@ -29,7 +29,7 @@ class MainProfile extends Component {
                     </div>
                 </nav>
                 <nav id="hamburger-nav">
-                    <div className="logo">shiva prasad m</div>
+                    <div className="logo">Mahaboob Basha A</div>
                     <div className="hamburger-menu">
                         <div className="hamburger-icon" onClick={() => this.toggleMenu()}>
                             <span></span>
@@ -46,15 +46,15 @@ class MainProfile extends Component {
                 </nav>
                 <section id="profile">
                     <div className="section__pic-container">
-                        <img src={process.env.PUBLIC_URL + '/assets/profile-1.png'} alt="shiva prasad profile" />
+                        <img src={process.env.PUBLIC_URL + '/assets/profile-1.jpg'} alt="mahaboob basha profile" />
                     </div>
                     <div className="section__text">
                         <p className="section__text__p1">Hello, I'm</p>
-                        <h1 className="title">Shiva Prasad M</h1>
+                        <h1 className="title">Mahaboob Basha A</h1>
                         <p className="section__text__p2">MERN Stack</p>
                         <div className="btn-container">
                             <button className="btn btn-color-2"
-                                onClick={() => window.open(process.env.PUBLIC_URL + '/assets/shiva-portfolio-resume.pdf')}
+                                onClick={() => window.open(process.env.PUBLIC_URL + '/assets/basha-portfolio-resume.pdf')}
                             >
                                 Download CV
                             </button>
@@ -67,21 +67,22 @@ class MainProfile extends Component {
                                 src={process.env.PUBLIC_URL + '/assets/linkedin.png'}
                                 alt="My LinkedIn profile"
                                 className="icon"
-                                onClick={() => (window.location.href = 'https://linkedin.com/in/shiva-prasad-m')}
+                                onClick={() => (window.location.href = 'https://linkedin.com/in/alurumahaboobbasha/')}
+
                             />
                             <img
                                 src={process.env.PUBLIC_URL + '/assets/github.png'}
                                 alt="My Github profile"
                                 className="icon"
-                                onClick={() => (window.location.href = 'https://github.com/shivaprasadmakela')}
+                                onClick={() => (window.location.href = 'https://github.com/mahaboob-basha-a/')}
                             />
 
-                            <img
+                            {/* <img
                                 src={process.env.PUBLIC_URL + '/assets/ytlogo.png'}
                                 alt="My YouTube profile"
                                 className="icon"
                                 onClick={() => (window.location.href = 'https://www.youtube.com/@shivaprasad.m')}
-                            />
+                            /> */}
                         </div>
                     </div>
                 </section>

@@ -9,7 +9,7 @@ const aboutMe = () => {
                 <h1 className="title">About Me</h1>
                 <div className="section-container">
                     <div className="section__pic-container">
-                        <img src={process.env.PUBLIC_URL + "./assets/profile-2.png"} alt="profile pic" classNameName='about-pic' />
+                        <img className='about-profile2' src={process.env.PUBLIC_URL + "./assets/profile-2.jpg"} alt="profile pic" classNameName='about-pic' />
                     </div>
                     <div className="about-details-container">
                         <div className="about-containers">
@@ -29,12 +29,12 @@ const aboutMe = () => {
                                     className="icon"
                                 />
                                 <h3>Education</h3>
-                                <p>B.Tech. Bachelors of Technology </p>
+                                <p>BSc. Bachelors of Science </p>
                             </div>
                         </div>
                         <div className="text-container">
                             <p>
-                                Motivated B.Tech graduate with expertise in both front-end and back-end web development. Seeking a
+                                Motivated BSc graduate with expertise in both front-end and back-end web development. Seeking a
                                 dynamic role to apply technical skills and creative problem-solving for innovative web solutions.
 
                             </p>

@@ -44,12 +44,6 @@
     gap: 4rem;
     height: 80%;
   }
-  
-  .section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-  }
 
   .section__pic-container {
     display: flex;
@@ -58,6 +52,10 @@
     margin: auto 0;
   }
   
+  .section__pic-container .about-profile2{
+    border-radius: 10px;
+  }
+
   .section__text {
     align-self: center;
     text-align: center;
@@ -113,6 +111,9 @@
     height: 275px;
     margin: 0 auto 2rem;
     }
+    .section__pic-container .about-profile2{
+      border-radius: 10px;
+    }
   .about-containers {
     margin-top: 0;
     }
@@ -135,6 +136,9 @@
     width: auto;
     height: 46vw;
     justify-content: center;
+  }
+  .section__pic-container .about-profile2{
+    border-radius: 10px;
   }
   .title {
     font-size: 2rem;

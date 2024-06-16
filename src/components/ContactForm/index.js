@@ -62,7 +62,7 @@ const ContactForm = () => {
                 alt="Email icon"
                 class="icon contact-icon email-icon"
               />
-              <p><a href="mailto:shivamekala001@gmail.com">shivamekala001@gmail.com</a></p>
+              <p><a href="mailto:alurumahaboobbasha@gmail.com">alurumahaboobbasha@gmail.com</a></p>
             </div>
           </div>
         </form>
@@ -78,7 +78,7 @@ const ContactForm = () => {
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
-        <p className='para'>Copyright &#169; 2023 Shiva Prasad M. All Rights Reserved.</p>
+        <p className='para'>Copyright &#169; 2024 Mahaboob Basha Aluru. All Rights Reserved.</p>
       </nav>
     </section>
   );
